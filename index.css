@@ -1,0 +1,62 @@
+@import url();
+* {
+  padding: 1px;
+  margin: 1px;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  font-family: "Indie Flower", cursive;
+    background-image: url(img/pexels-fwstudio-129731.jpg);
+
+}
+body h1 {
+  margin: 2rem auto;
+  text-align: center;
+  font-size: 3rem;
+}
+body section.control {
+  display: flex;
+  justify-content: center;
+  gap: 0 0.5rem;
+}
+body section.control button {
+  background-color: hwb(117 8% 54%);
+  border: none;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+}
+body section.control button:hover, body section.control button:focus {
+  background-color: rgb(14, 146, 163);
+  cursor: pointer;
+}
+body section.container {
+  margin: 2rem auto;
+  width: 350px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 2px 2px 2px 0.5rem rgba(0, 0, 0, 0.2);
+}
+body footer.attribute {
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
+  height: 3rem;
+  padding: 1rem 0;
+  line-height: 1rem;
+  color: rgb(208, 112, 10);
+  transition: all 0.2s ease-in-out;
+  text-align: center;
+  font-weight: 700;
+}
+body footer.attribute a {
+  text-decoration:none;
+  color: black;
+}
+body footer.attribute a:hover {
+  color: rgb(37, 72, 15);
+}
